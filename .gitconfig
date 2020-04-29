@@ -1,0 +1,9 @@
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[user]
+	name = robert-giaquinto
+	email = giaquinto.ra@gmail.com
+[core]
+	editor = subl -n -w
